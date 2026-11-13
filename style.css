@@ -4,23 +4,28 @@ body {
     background-color: #f6f8fa; /* Sets GitHub's light gray background */
     text-align: center; /* Horizontally centers the button */
     padding-top: 100px; /* Adds space above the button */
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; /* Uses GitHub-style system fonts */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; /* Uses GitHub-style fonts */
 }
 
-/* GitHub-style button */
+/* GitHub login button */
 .github-button {
-    background-color: #24292f; /* Sets GitHub's dark button color */
+    background-color: #24292d; /* Sets the original dark background */
     color: #ffffff; /* Makes the text white */
     border: 1px solid rgba(31, 35, 40, 0.15); /* Adds a subtle border */
-    border-radius: 8px; /* Slightly rounds the button corners */
-    padding: 12px 28px; /* Adds space inside the button */
+    border-radius: 8px; /* Rounds the button corners */
+    padding: 12px 30px; /* Adds internal space */
     font-size: 16px; /* Sets the text size */
     font-weight: 600; /* Makes the text semi-bold */
-    cursor: pointer; /* Changes the cursor when hovering */
-    transition: background-color 0.2s ease; /* Creates a smooth hover effect */
+    cursor: pointer; /* Changes the cursor into a pointer */
+    transition: background-color 0.2s ease; /* Smoothly changes the background */
 }
 
-/* Button hover effect */
+/* Hover effect */
 .github-button:hover {
-    background-color: #32383f; /* Lightens the button when hovering */
+    background-color: #0969da; /* Changes to GitHub blue when hovering */
+}
+
+/* Click effect */
+.github-button:active {
+    background-color: #0550ae; /* Changes to darker blue when clicked */
 }
