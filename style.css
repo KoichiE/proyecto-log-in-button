@@ -1,0 +1,26 @@
+
+/* General page styling */
+body {
+    background-color: #f6f8fa; /* Sets GitHub's light gray background */
+    text-align: center; /* Horizontally centers the button */
+    padding-top: 100px; /* Adds space above the button */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; /* Uses GitHub-style system fonts */
+}
+
+/* GitHub-style button */
+.github-button {
+    background-color: #24292f; /* Sets GitHub's dark button color */
+    color: #ffffff; /* Makes the text white */
+    border: 1px solid rgba(31, 35, 40, 0.15); /* Adds a subtle border */
+    border-radius: 8px; /* Slightly rounds the button corners */
+    padding: 12px 28px; /* Adds space inside the button */
+    font-size: 16px; /* Sets the text size */
+    font-weight: 600; /* Makes the text semi-bold */
+    cursor: pointer; /* Changes the cursor when hovering */
+    transition: background-color 0.2s ease; /* Creates a smooth hover effect */
+}
+
+/* Button hover effect */
+.github-button:hover {
+    background-color: #32383f; /* Lightens the button when hovering */
+}
